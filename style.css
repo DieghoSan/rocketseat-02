@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #7cf0c779, #fff 15%);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+}
+#page {
+    max-width: 1000px;
+    padding: 0px 30px;
+    margin: 65px auto;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+}
+h1 span {
+    color: #89C5CC;
+    font-weight: 600;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #7D7987;
+    line-height: 28px;
+}
+main > img {
+
+}
+button {
+    background-color: #69B99D;
+    border: none;
+    padding: 14px 32px 15px;
+    border-radius: 4px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+footer {
+    text-align: center;
+
+}
+footer a {
+    font-weight: bold;
+    color: #1F1534;
+}
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+button:hover {
+    background-color: #419477;
+}
+nav a:hover {
+    font-weight: bold;
+    color: #1F1534;
+}
